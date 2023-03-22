@@ -230,9 +230,7 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>
-          Coach Alexis - Internationally competitive rhythmic gymnast
-        </title>
+        <title>Coach Alexis - Coach Alexis rhythmic gymnast</title>
         <meta
           name="description"
           content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
