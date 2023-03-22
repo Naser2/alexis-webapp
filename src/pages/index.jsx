@@ -254,7 +254,7 @@ export default function Home({ articles }) {
           fill
           // height={200}
           // width={200}
-          className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
+          className="aspect-[5/2] w-full object-cover xl:rounded-sm"
           // className="aspect-[5/2] w-full object-cover xl:rounded-3xl"
         />
       </div>
