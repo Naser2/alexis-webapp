@@ -231,7 +231,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Coach Alexis - Software designer, founder, and amateur astronaut
+          Coach Alexis - Internationally competitive rhythmic gymnast
         </title>
         <meta
           name="description"
