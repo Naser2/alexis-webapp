@@ -236,12 +236,16 @@ export default function Home({ articles }) {
           content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
         />
       </Head>
-      <h1 className="px-4 pt-10  text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:pt-20 lg:px-48">
-        Hi, I &apos;m Alexis Page
-      </h1>
-      <p className=" lg:px-34 px-4 pt-4 pb-6 pb-10 text-base text-zinc-600   dark:text-zinc-400 sm:pt-2  sm:pb-10 xl:px-48">
-        I’m Alexis , (former internationally competitive rhythmic gymnast).
-      </p>
+
+      <Container className="mt-9">
+        <h1 className=" pt-10 text-4xl  font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:pt-20  lg:pt-8 ">
+          Hi, I &apos;m Alexis Page
+        </h1>
+        <p className="pt-4 pb-6 pb-10 text-base text-zinc-600 dark:text-zinc-400   sm:pt-2 sm:pb-10 ">
+          I’m Alexis , (former internationally competitive rhythmic gymnast).
+        </p>
+      </Container>
+
       <div
         id="landin-main-image"
         className="relative mx-0 mr-10 min-h-[500px] w-full"

@@ -2,3 +2,13 @@
 @import 'tailwindcss/components';
 @import './prism.css';
 @import 'tailwindcss/utilities';
+
+.black-2-bg {
+  background-color: #20232a;
+}
+.dark .dark\:black-2-bg {
+  background-color: #20232a;
+}
+.crisp-black {
+  background-color: #171616;
+}

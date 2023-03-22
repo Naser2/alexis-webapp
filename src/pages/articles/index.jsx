@@ -45,7 +45,7 @@ export default function ArticlesIndex({ articles }) {
         />
       </Head>
       <SimpleLayout
-        title="Writing on gymnastics mainly, and divergent topics."
+        title="Writing on gymnastics mainly, and at times on divergent topics."
         intro="All of my long-form thoughts on rythmic gymnatics, leadership, coaching, and more, collected in chronological order."
       >
         <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
