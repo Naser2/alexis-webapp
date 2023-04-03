@@ -56,7 +56,7 @@ const ChoachingForm = () => {
               <div className="mt-2 sm:col-span-2 sm:mt-0">
                 <div className="flex max-w-lg rounded-md shadow-sm">
                   <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 sm:text-sm">
-                    Jhon
+                    Marcia
                   </span>
                   <input
                     type="text"
@@ -78,7 +78,7 @@ const ChoachingForm = () => {
               <div className="mt-2 sm:col-span-2 sm:mt-0">
                 <div className="flex max-w-lg rounded-md shadow-sm">
                   <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 sm:text-sm">
-                    Kwame
+                    Grace
                   </span>
                   <input
                     type="text"
@@ -100,7 +100,7 @@ const ChoachingForm = () => {
               <div className="mt-2 sm:col-span-2 sm:mt-0">
                 <div className="flex max-w-lg rounded-md shadow-sm">
                   <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 sm:text-sm">
-                    alexis@gm..
+                    marciagrace@gm..
                   </span>
                   <input
                     type="text"

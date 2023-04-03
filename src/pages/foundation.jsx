@@ -93,11 +93,11 @@ export default function Foundation() {
         <title>Speaking - Alexis Page</title>
         <meta
           name="description"
-          content="I’ve thpought of other children who may own the situation that was once mine"
+          content="I’ve thought of other children who may own the situation that was once mine."
         />
       </Head>
       <SimpleLayout
-        title="I’ve thpought of other children who own the situation that was once mine"
+        title="I’ve thought of other children who own the situation that was once mine."
         // intro="One of my favorite ways to share is to create an equal opportunity for those in need. That is why I started the Alexis Page Foundation"
       >
         <Image src={flowers} sizes={flowers.sizes} alt="flowers" />

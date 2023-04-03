@@ -10,57 +10,100 @@ import {
 } from '@heroicons/react/20/solid'
 import { Menu, Transition } from '@headlessui/react'
 import { Container } from '@/components/Container'
-
+import Image1 from '@/images/callendar/image-1.jpeg'
+import Image2 from '@/images/callendar/image-2.png'
+import Image3 from '@/images/callendar/image-3.png'
+import Image4 from '@/images/callendar/image-4.png'
+import Image5 from '@/images/callendar/image-5.jpeg'
+import Image6 from '@/images/callendar/image-6.png'
+import Image7 from '@/images/callendar/image-7.jpg'
+import Image8 from '@/images/callendar/image-8.png'
+import Image9 from '@/images/callendar/image-9.jpeg'
 const meetings = [
   {
     id: 1,
-    date: 'January 10th, 2023',
-    time: '5:00 PM',
+    date: 'April 10th, 2023',
+    time: '4:00 PM',
     datetime: '2023-01-10T17:00',
-    name: 'Leslie Alexander',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    name: 'Cynthia Blackman',
+    imageUrl: Image1.src,
     location: 'Remote',
+  },
+
+  {
+    id: 1,
+    date: 'April 10th, 2023',
+    time: '5:30 PM',
+    datetime: '2023-01-10T17:00',
+    name: 'Fatou Diabate',
+    imageUrl: Image6.src,
+    location: 'My Gym',
   },
   {
     id: 1,
-    date: 'January 10th, 2023',
-    time: '5:00 PM',
+    date: 'April 11th, 2023',
+    time: '8:00 AM',
     datetime: '2023-01-10T17:00',
-    name: 'Leslie Alexander',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    name: 'Robert Mansour',
+    imageUrl: Image5.src,
     location: 'YMCA',
   },
   {
     id: 1,
-    date: 'January 10th, 2023',
-    time: '5:00 PM',
+    date: 'April 11th, 2023',
+    time: '10:30 PM',
     datetime: '2023-01-10T17:00',
-    name: 'Leslie Alexander',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-    location: 'Remote',
-  },
-  {
-    id: 1,
-    date: 'January 10th, 2023',
-    time: '5:00 PM',
-    datetime: '2023-01-10T17:00',
-    name: 'Leslie Alexander',
-    imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+    name: 'Dady Jolie Konate',
+    imageUrl: Image8.src,
     location: 'Unspecified',
   },
   {
     id: 1,
-    date: 'January 10th, 2023',
+    date: 'Aprol 12th, 2023',
+    time: '11:30 PM',
+    datetime: '2023-01-10T17:00',
+    name: 'Sarah Foster',
+    imageUrl: Image4.src,
+    location: 'Remote',
+  },
+  {
+    id: 1,
+    date: 'April 13th, 2023',
+    time: '3:00 PM',
+    datetime: '2023-01-10T17:00',
+    name: 'Ana Walton',
+    imageUrl: Image3.src,
+    location: 'YMCA',
+  },
+  {
+    id: 1,
+    date: 'April 14th, 2023',
     time: '5:00 PM',
     datetime: '2023-01-10T17:00',
     name: 'Leslie Alexander',
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
     location: 'Remote',
+  },
+
+  {
+    id: 1,
+    date: 'April 14th, 2023',
+    time: '6:00 PM',
+    datetime: '2023-01-10T17:00',
+    name: 'Vincent Steward',
+    imageUrl: Image2.src,
+    location: 'YMCA',
+  },
+
+  {
+    id: 1,
+    date: 'April 15th, 2023',
+    time: '10:00 AM',
+    datetime: '2023-01-10T17:00',
+    name: 'Dejah Careington',
+    imageUrl: Image9.src,
+    location: 'Unspecified',
   },
   // More meetings...
 ]
@@ -120,9 +163,7 @@ export default function Calendar() {
         <h2 className="mt-14 mb-4  px-4 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:mb-28 sm:mb-4 sm:mt-28 sm:text-5xl">
           Upcoming meetings
         </h2>
-        <h4 className="mb-5 px-4 text-xl text-indigo-400 sm:mb-20">
-          Review and schedule
-        </h4>
+
         <div className="px-4 sm:px-0 lg:grid lg:grid-cols-12 lg:gap-x-16">
           <div className="mt-10 text-center lg:col-start-8 lg:col-end-13 lg:row-start-1 lg:mt-9 xl:col-start-9">
             <div className="flex items-center text-gray-900">
@@ -136,7 +177,9 @@ export default function Calendar() {
                   aria-hidden="true"
                 />
               </button>
-              <div className="flex-auto text-sm font-semibold">January</div>
+              <div className="flex-auto text-lg font-semibold dark:text-slate-200">
+                April
+              </div>
               <button
                 type="button"
                 className="-m-1.5 flex flex-none items-center justify-center p-1.5 text-gray-400 hover:text-gray-500"
@@ -199,10 +242,14 @@ export default function Calendar() {
               type="button"
               className="mt-8 w-full rounded-md bg-indigo-600 py-2 px-3 text-sm font-semibold text-white shadow hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Add event
+              Book session
             </button>
           </div>
-          <ol className="mt-4 divide-y divide-gray-100 text-sm leading-6 lg:col-span-7 xl:col-span-8">
+
+          <ol className="mt-14 divide-y divide-gray-100 text-sm leading-6 sm:mt-4 lg:col-span-7 xl:col-span-8">
+            <h4 className="mb-5 px-5 text-xl dark:text-slate-400 sm:mb-20 sm:px-6">
+              Scheduled
+            </h4>
             {meetings.map((meeting) => (
               <li
                 key={meeting.id}
@@ -214,7 +261,7 @@ export default function Calendar() {
                   className="h-14 w-14 flex-none rounded-full"
                 />
                 <div className="flex-auto">
-                  <h3 className="pr-10 font-semibold text-gray-900 xl:pr-0">
+                  <h3 className="pr-10 font-semibold text-gray-900 dark:text-slate-300 xl:pr-0">
                     {meeting.name}
                   </h3>
                   <dl className="mt-2 flex flex-col text-gray-500 xl:flex-row">
@@ -226,7 +273,7 @@ export default function Calendar() {
                           aria-hidden="true"
                         />
                       </dt>
-                      <dd>
+                      <dd className="dark:text-slate-300/80">
                         <time dateTime={meeting.datetime}>
                           {meeting.date} at {meeting.time}
                         </time>
@@ -256,8 +303,8 @@ export default function Calendar() {
                   className="absolute top-6 right-0 xl:relative xl:top-auto xl:right-auto xl:self-center"
                 >
                   <div>
-                    <Menu.Button className="-m-2 flex items-center rounded-full p-2 text-gray-500 hover:text-gray-600">
-                      <span className="sr-only">Open options</span>
+                    <Menu.Button className="-m-2  flex items-center rounded-full bg-slate-200 p-2 text-gray-500 hover:text-gray-600">
+                      <span className="sr-only">Edit or cancel</span>
                       <EllipsisHorizontalIcon
                         className="h-5 w-5"
                         aria-hidden="true"

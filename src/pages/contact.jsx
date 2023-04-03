@@ -33,7 +33,7 @@ const ChoachingForm = () => {
         <div className="space-y-6 sm:space-y-5">
           <div>
             <h3 className="text-base font-semibold leading-6 text-gray-900">
-              Please feel free to reach out
+              Feel free to reach out
             </h3>
           </div>
 
@@ -41,13 +41,13 @@ const ChoachingForm = () => {
             <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
               <label
                 htmlFor="username"
-                className="block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5"
+                className="block text-sm font-medium leading-6 text-gray-900 dark:text-slate-300 sm:pt-1.5"
               >
                 First Name
               </label>
               <div className="mt-2 sm:col-span-2 sm:mt-0">
                 <div className="flex max-w-lg rounded-md shadow-sm">
-                  <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 sm:text-sm">
+                  <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 dark:bg-gray-400 dark:text-slate-700 sm:text-sm">
                     Jhon
                   </span>
                   <input
@@ -63,13 +63,13 @@ const ChoachingForm = () => {
             <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
               <label
                 htmlFor="username"
-                className="block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5"
+                className="block text-sm font-medium leading-6 text-gray-900 dark:text-slate-300 sm:pt-1.5"
               >
                 Last Name
               </label>
               <div className="mt-2 sm:col-span-2 sm:mt-0">
                 <div className="flex max-w-lg rounded-md shadow-sm">
-                  <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 sm:text-sm">
+                  <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 dark:bg-gray-400 dark:text-slate-700 sm:text-sm">
                     Kwame
                   </span>
                   <input
@@ -85,14 +85,14 @@ const ChoachingForm = () => {
             <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
               <label
                 htmlFor="username"
-                className="block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5"
+                className="block text-sm font-medium leading-6 text-gray-900 dark:text-slate-300 sm:pt-1.5"
               >
                 Email
               </label>
               <div className="mt-2 sm:col-span-2 sm:mt-0">
                 <div className="flex max-w-lg rounded-md shadow-sm">
-                  <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 sm:text-sm">
-                    alexis@gm..
+                  <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 px-3 text-gray-500 dark:bg-gray-400 dark:text-slate-700 sm:text-sm">
+                    jhonkwame@gm..
                   </span>
                   <input
                     type="text"
@@ -107,7 +107,7 @@ const ChoachingForm = () => {
             <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-gray-200 sm:pt-5">
               <label
                 htmlFor="about"
-                className="block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5"
+                className="block text-sm font-medium leading-6 text-gray-900 dark:text-slate-300 sm:pt-1.5"
               >
                 About
               </label>
@@ -119,7 +119,7 @@ const ChoachingForm = () => {
                   className="block w-full max-w-lg rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6"
                   defaultValue={''}
                 />
-                <p className="mt-2 text-sm text-gray-500">
+                <p className="mt-2 text-sm text-gray-400/90">
                   Write a few sentences about yourself.
                 </p>
               </div>
@@ -167,8 +167,8 @@ export default function coaching() {
                 )}
                 priority
               />
-              <div class="text-sm leading-6">
-                <strong class="font-semibold text-gray-900">
+              <div class="text-sm leading-6 dark:text-slate-400">
+                <strong class="font-semibold text-gray-900 dark:text-slate-300">
                   Coach Alexis
                 </strong>{' '}
                 – Head Coach
