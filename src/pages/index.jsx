@@ -263,7 +263,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-3xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:pt-10 sm:text-5xl">
-            Athlete, and gymnastic coach.
+            Athlete and gymnastic coach.
           </h1>
           <p className="mt-6 pb-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m the gymnastics manager/rhythmic gymnastic Head Coach at Wendy
